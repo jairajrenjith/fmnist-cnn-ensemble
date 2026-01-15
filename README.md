@@ -107,4 +107,4 @@ MIT License — free for academic and personal use.
 
 ---
 
-By Jairaj R
+By Jairaj R.
