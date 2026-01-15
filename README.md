@@ -9,7 +9,7 @@ This project compares a single CNN model with a 5-model ensemble CNN trained on 
 ```
 fmnist-cnn-ensemble/
 │
-├── fmnist_ensemble.ipynb
+├── ensemble_cnn_fmnist.ipynb
 ├── README.md
 └── requirements.txt
 ```
@@ -90,7 +90,7 @@ Compiled using:
 3. Launch notebook:
 
   ```bash
-  jupyter notebook fmnist_ensemble.ipynb
+  jupyter notebook ensemble_cnn_fmnist.ipynb
   ```
 
 ---
