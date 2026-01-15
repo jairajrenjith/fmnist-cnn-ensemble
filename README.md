@@ -25,7 +25,6 @@ fmnist-cnn-ensemble/
 - Reshape to **(28, 28, 1)**
 - Split into training and validation sets
 
----
 
 ### 2. Define the CNN Model
 
@@ -44,14 +43,12 @@ Compiled using:
   metrics: accuracy
   ```
 
----
 
 ### 3. Build the Ensemble
 - Train **5** identical CNN models
 - Each receives a **bootstrapped dataset**
 - Train each for **3 epochs**
 
----
 
 ### 4. Evaluate the Ensemble
 - Predict using all 5 models
@@ -59,7 +56,6 @@ Compiled using:
 - Choose final class with `argmax`
 - Evaluate accuracy on validation and test sets
 
----
 
 ### 5. Compare With a Single CNN
 - Train one standalone CNN
@@ -82,7 +78,7 @@ Compiled using:
 1. Clone the repo:
 
   ```bash
-  git clone https://github.com/yourusername/fmnist-cnn-ensemble.git
+  git clone <repo-link>
   ```
 
 2. Install dependencies:
